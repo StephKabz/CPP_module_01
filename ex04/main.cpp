@@ -6,7 +6,7 @@
 /*   By: kingstephane <kingstephane@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/30 17:42:07 by kingstephan       #+#    #+#             */
-/*   Updated: 2025/12/30 18:26:57 by kingstephan      ###   ########.fr       */
+/*   Updated: 2025/12/30 18:32:05 by kingstephan      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,7 @@ int	main(int argc, char **argv)
 	
 	if (argc != 4)
 	{
-		std::cout << "Ivalid number of arguments!" << std::endl;
+		std::cout << "Invalid number of arguments!" << std::endl;
 		std:: cout << "Use -> ./replace fileName string1 string2!" << std::endl;
 		return (1);
 	}
